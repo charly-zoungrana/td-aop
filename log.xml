@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2026-11-18T11:14:41.097381200Z</date>
-  <millis>1795000481097</millis>
-  <nanos>381200</nanos>
+  <date>2026-11-18T11:30:50.809120700Z</date>
+  <millis>1795001450809</millis>
+  <nanos>120700</nanos>
   <sequence>0</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>--------------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:41.103913400Z</date>
-  <millis>1795000481103</millis>
-  <nanos>913400</nanos>
+  <date>2026-11-18T11:30:50.823191600Z</date>
+  <millis>1795001450823</millis>
+  <nanos>191600</nanos>
   <sequence>1</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Début d'exécution de la méthode: void net.zoungrana.metier.MetierBanqueImpl.addCompte(Compte)</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:41.103913400Z</date>
-  <millis>1795000481103</millis>
-  <nanos>913400</nanos>
+  <date>2026-11-18T11:30:50.823191600Z</date>
+  <millis>1795001450823</millis>
+  <nanos>191600</nanos>
   <sequence>2</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -38,21 +38,21 @@
   <message>Fin d'exécution de la méthode: void net.zoungrana.metier.MetierBanqueImpl.addCompte(Compte)</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:41.103913400Z</date>
-  <millis>1795000481103</millis>
-  <nanos>913400</nanos>
+  <date>2026-11-18T11:30:50.823191600Z</date>
+  <millis>1795001450823</millis>
+  <nanos>191600</nanos>
   <sequence>3</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>net.zoungrana.aspects.LoggingAspect</class>
   <method>around</method>
   <thread>1</thread>
-  <message>Durée : 6 ms</message>
+  <message>Durée : 14 ms</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:41.104911500Z</date>
-  <millis>1795000481104</millis>
-  <nanos>911500</nanos>
+  <date>2026-11-18T11:30:50.823191600Z</date>
+  <millis>1795001450823</millis>
+  <nanos>191600</nanos>
   <sequence>4</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -62,9 +62,9 @@
   <message>--------------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.663972400Z</date>
-  <millis>1795000486663</millis>
-  <nanos>972400</nanos>
+  <date>2026-11-18T11:31:05.250463200Z</date>
+  <millis>1795001465250</millis>
+  <nanos>463200</nanos>
   <sequence>5</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -74,9 +74,9 @@
   <message>--------------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.664958900Z</date>
-  <millis>1795000486664</millis>
-  <nanos>958900</nanos>
+  <date>2026-11-18T11:31:05.251472200Z</date>
+  <millis>1795001465251</millis>
+  <nanos>472200</nanos>
   <sequence>6</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -86,9 +86,9 @@
   <message>Début d'exécution de la méthode: void net.zoungrana.metier.MetierBanqueImpl.verser(Long, double)</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.664958900Z</date>
-  <millis>1795000486664</millis>
-  <nanos>958900</nanos>
+  <date>2026-11-18T11:31:05.251472200Z</date>
+  <millis>1795001465251</millis>
+  <nanos>472200</nanos>
   <sequence>7</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -98,9 +98,9 @@
   <message>Fin d'exécution de la méthode: void net.zoungrana.metier.MetierBanqueImpl.verser(Long, double)</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.664958900Z</date>
-  <millis>1795000486664</millis>
-  <nanos>958900</nanos>
+  <date>2026-11-18T11:31:05.251472200Z</date>
+  <millis>1795001465251</millis>
+  <nanos>472200</nanos>
   <sequence>8</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -110,9 +110,9 @@
   <message>Durée : 1 ms</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.664958900Z</date>
-  <millis>1795000486664</millis>
-  <nanos>958900</nanos>
+  <date>2026-11-18T11:31:05.251472200Z</date>
+  <millis>1795001465251</millis>
+  <nanos>472200</nanos>
   <sequence>9</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -122,9 +122,9 @@
   <message>--------------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.665962500Z</date>
-  <millis>1795000486665</millis>
-  <nanos>962500</nanos>
+  <date>2026-11-18T11:31:05.251472200Z</date>
+  <millis>1795001465251</millis>
+  <nanos>472200</nanos>
   <sequence>10</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -134,9 +134,9 @@
   <message>--------------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.665962500Z</date>
-  <millis>1795000486665</millis>
-  <nanos>962500</nanos>
+  <date>2026-11-18T11:31:05.251472200Z</date>
+  <millis>1795001465251</millis>
+  <nanos>472200</nanos>
   <sequence>11</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -146,9 +146,9 @@
   <message>Début d'exécution de la méthode: Compte net.zoungrana.metier.MetierBanqueImpl.consulterCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.665962500Z</date>
-  <millis>1795000486665</millis>
-  <nanos>962500</nanos>
+  <date>2026-11-18T11:31:05.253419700Z</date>
+  <millis>1795001465253</millis>
+  <nanos>419700</nanos>
   <sequence>12</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -158,82 +158,22 @@
   <message>Fin d'exécution de la méthode: Compte net.zoungrana.metier.MetierBanqueImpl.consulterCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.665962500Z</date>
-  <millis>1795000486665</millis>
-  <nanos>962500</nanos>
+  <date>2026-11-18T11:31:05.255150800Z</date>
+  <millis>1795001465255</millis>
+  <nanos>150800</nanos>
   <sequence>13</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>net.zoungrana.aspects.LoggingAspect</class>
   <method>around</method>
   <thread>1</thread>
-  <message>Durée : 0 ms</message>
+  <message>Durée : 4 ms</message>
 </record>
 <record>
-  <date>2026-11-18T11:14:46.665962500Z</date>
-  <millis>1795000486665</millis>
-  <nanos>962500</nanos>
+  <date>2026-11-18T11:31:05.255150800Z</date>
+  <millis>1795001465255</millis>
+  <nanos>150800</nanos>
   <sequence>14</sequence>
-  <logger>net.zoungrana.aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>net.zoungrana.aspects.LoggingAspect</class>
-  <method>around</method>
-  <thread>1</thread>
-  <message>--------------------------------------------------------------</message>
-</record>
-<record>
-  <date>2026-11-18T11:14:53.290911200Z</date>
-  <millis>1795000493290</millis>
-  <nanos>911200</nanos>
-  <sequence>15</sequence>
-  <logger>net.zoungrana.aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>net.zoungrana.aspects.LoggingAspect</class>
-  <method>around</method>
-  <thread>1</thread>
-  <message>--------------------------------------------------------------</message>
-</record>
-<record>
-  <date>2026-11-18T11:14:53.291906500Z</date>
-  <millis>1795000493291</millis>
-  <nanos>906500</nanos>
-  <sequence>16</sequence>
-  <logger>net.zoungrana.aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>net.zoungrana.aspects.LoggingAspect</class>
-  <method>around</method>
-  <thread>1</thread>
-  <message>Début d'exécution de la méthode: Compte net.zoungrana.metier.MetierBanqueImpl.consulterCompte(Long)</message>
-</record>
-<record>
-  <date>2026-11-18T11:14:53.291906500Z</date>
-  <millis>1795000493291</millis>
-  <nanos>906500</nanos>
-  <sequence>17</sequence>
-  <logger>net.zoungrana.aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>net.zoungrana.aspects.LoggingAspect</class>
-  <method>around</method>
-  <thread>1</thread>
-  <message>Fin d'exécution de la méthode: Compte net.zoungrana.metier.MetierBanqueImpl.consulterCompte(Long)</message>
-</record>
-<record>
-  <date>2026-11-18T11:14:53.291906500Z</date>
-  <millis>1795000493291</millis>
-  <nanos>906500</nanos>
-  <sequence>18</sequence>
-  <logger>net.zoungrana.aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>net.zoungrana.aspects.LoggingAspect</class>
-  <method>around</method>
-  <thread>1</thread>
-  <message>Durée : 1 ms</message>
-</record>
-<record>
-  <date>2026-11-18T11:14:53.291906500Z</date>
-  <millis>1795000493291</millis>
-  <nanos>906500</nanos>
-  <sequence>19</sequence>
   <logger>net.zoungrana.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>net.zoungrana.aspects.LoggingAspect</class>
