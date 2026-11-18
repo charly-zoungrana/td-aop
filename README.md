@@ -49,13 +49,17 @@ En console, `v` permet d’effectuer un versement, `r` un retrait et `quitter` t
 
 La version suivante regroupe la mesure dans un advice `@Around` et redirige les messages de `java.util.logging` vers [`log.xml`](log.xml) avec un `FileHandler` (`f658b62`). L’advice journalise la signature de la méthode, appelle `proceed()` et, si l’exécution se termine normalement, consigne sa fin et sa durée avant de renvoyer le résultat. Dans le journal enregistré, un appel à `addCompte` comporte une entrée de début, une entrée de fin et une durée de 14 ms.
 
+![Extrait du journal XML affichant le début de l’exécution de addCompte](captures/log.png)
+
+*Figure 4 — Le journal XML montre une entrée horodatée de niveau `INFO` générée par `LoggingAspect` au début de l’exécution de `addCompte`.*
+
 ### 4. Contrôle du solde avant un retrait
 
 [`PatchRetraitAspect`](src/main/java/net/zoungrana/aspects/PatchRetraitAspect.java) cible `MetierBanqueImpl.retirer(Long, double)`. L’expression `args(code, montant)` transmet le code du compte et le montant à l’advice `@Around`. L’aspect consulte le solde et appelle `proceed()` lorsque le montant demandé est inférieur ou égal au solde. Lorsque le solde est insuffisant, il lève une exception avec le message `Solde insuffisant` et le retrait est bloqué (`6486f00`).
 
 ![Retrait de 35 000 refusé sur un solde de 32 000](captures/patchRetraitAspect.png)
 
-*Figure 4 — Après un versement, le solde atteint 32 000. L’aspect refuse le retrait de 35 000.*
+*Figure 5 — Après un versement, le solde atteint 32 000. L’aspect refuse le retrait de 35 000.*
 
 ### 5. Authentification au démarrage
 
@@ -63,11 +67,11 @@ La version suivante regroupe la mesure dans un advice `@Around` et redirige les 
 
 ![La console refuse l’accès après la saisie d’un mot de passe incorrect](captures/access-denied.png)
 
-*Figure 5 — Identifiants incorrects, accès refusé.*
+*Figure 6 — Identifiants incorrects, accès refusé.*
 
 ![La console démarre l’application et accepte un versement après authentification](captures/access-granted.png)
 
-*Figure 6 — Identifiants valides, démarrage de l’application et versement de 5 000.*
+*Figure 7 — Identifiants valides, démarrage de l’application et versement de 5 000.*
 
 ### 6. Exécution dans IntelliJ IDEA
 
