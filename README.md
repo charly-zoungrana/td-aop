@@ -15,7 +15,7 @@ Dans ce TP, le service bancaire gère les comptes et leurs soldes. Un aspect jou
 
 Un pointcut large peut couvrir plusieurs méthodes d’un coup. Il faut donc vérifier les cibles sélectionnées, surtout lorsque plusieurs aspects interviennent sur une même opération. [Guide de programmation AspectJ](https://eclipse.dev/aspectj/doc/latest/progguide/progguide.html)
 
-## Partie 1 — Mise en œuvre avec AspectJ
+## Mise en œuvre avec AspectJ
 
 ### 1. Premiers advice autour de `main`
 
@@ -78,3 +78,9 @@ La version suivante regroupe la mesure dans un advice `@Around` et redirige les 
 1. Ouvrir le projet Maven avec le **JDK 21**. Le [`pom.xml`](pom.xml) déclare `aspectjrt` en version **1.9.25.1**.
 2. Activer le plugin **AspectJ**, puis sélectionner **Ajc** dans **Settings → Build, Execution, Deployment → Compiler → Java Compiler** et indiquer le chemin du JAR `aspectjtools-1.9.25.1.jar`.
 3. Reconstruire le projet avec **Build → Rebuild Project**, puis lancer `net.zoungrana.test.Application`.
+
+## Conclusion
+
+Ce TP a permis d’expérimenter la syntaxe native d’AspectJ et les annotations Java, puis d’appliquer les mêmes principes à une application bancaire. Le tissage à la compilation avec `ajc` a intégré trois comportements distincts aux points d’exécution choisis. Les opérations sont journalisées dans `log.xml`, un retrait supérieur au solde est refusé et le démarrage de l’application dépend de la validation des identifiants.
+
+L’advice `around` a servi à deux usages concrets. Pour la journalisation, `proceed()` exécute l’opération entre les messages de début et de fin. Pour le contrôle du solde et l’authentification, l’aspect appelle `proceed()` uniquement si la condition est remplie. Le code métier reste ainsi centré sur la gestion des comptes, tandis que les pointcuts indiquent précisément où chaque aspect intervient.
